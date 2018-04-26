@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+   function add(){
+	   var index;
+	   var name=document.getElementById("name").value;
+	   var id=document.getElementById("id").value;
+	   var addr=document.getElementById("address").value;
+	   var tel=document.getElementById("tel").value;
+	  var rows=document.getElementById("myTable").rows;
+	  if(rows.length==0) {index=1;}
+	  for(var i=0;i<rows.length;i++){
+		   var row=rows[i];  // 5  1 2 3 6
+		   if (row.cells[0].innerHTML>id)
+			    {index=row.cells[0].innerTHML;}
+	  }
+	  var insertRow=document.getElementById("myTable").insertRow(index);
+	  
+   }
+   function del(bbt){
+	   var index=bbt.parentNode.parentNode.rowIndex;
+	   document.getElementById("myTable").deleteRow(index);
+   }
+</script>
+</head>
+<body>
+   <table id="myTable" >
+      <tr>
+        <td>学号</td><td>姓名</td><td>籍贯</td><td>电话</td><td>操作</td>
+      </tr>
+       <tr>
+        <td>1</td><td>王晓晓</td><td>宁夏</td><td>1512<td>
+        <td>
+           <input type="button" value="删除" onclick="del(this)"/>
+        </td>
+      </tr>
+      <tr>
+        <td>1</td><td>王晓晓</td><td>宁夏</td><td>1512<td>
+        <td>
+           <input type="button" value="删除" onclick="del(this)"/>
+        </td>
+      </tr>
+   </table>
+   姓名：<input type="text" id="name" value=""/><br>
+  编号：<input type="text" id="id" /><br>
+  籍贯：<input type="text" id="address" /><br>
+   电话：<input type="text" id="tel" /><br>
+ <input type="button" value="增加" onclick="add()"/>
+</body>
+</html>

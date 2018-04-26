@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+<title>介绍</title>
+<link type="text/css" rel="stylesheet" href="css/new.css"/>
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/leftnav.css" media="screen" type="text/css">
+<script type="text/javascript">
+$(function(){
+	
+	$(".title").click(function(){
+		   
+		 $("dd").find('ul').slideUp();
+		 if($(this).next('ul').is(':visible')){
+			  $(this).next('ul').slideUp();
+		 }else{
+			 $(this).next('ul').slideDown();
+		 }
+		 
+		 alert($("dd").next("div").length);
+		 alert($("dd").find("ul").length);
+	});
+	 
+ });
+</script>
+
+
+
+
+</head>
+<body class="main">
+   <div class="container">
+     <div class="banner">
+        <a class="aa"><img  src="image/logoCIC.png" width="250px" height="70px"/></a>
+        <a class="ss"><input type="text" name="search" value="搜索" maxLength="10"/><br/></a>
+        <a class="mm" href="NewFile3.html">English</a>
+     </div>
+     <div class="navigation">
+        <ul>
+          <li ><a href="NewFile.html">首页</a></li>
+          <li><a href="main2.html">介绍</a></li>
+          <li><a href="https://www.google.cn/maps/place/College+of+Arts,+Media+and+Technology/@18.8006677,98.9501761,17z/data=!4m5!3m4!1s0x30da3a6bf542deb3:0x85fbac3033920444!8m2!3d18.8004538!4d98.9504034">地图</a></li>
+          <li><a href="picture.html">图片</a></li>
+          <li><a href="download.html">下载</a></li>
+        </ul>
+     </div>
+     
+  
+
+
+
+ <div class="content4">
+ <div class="account-l fl">
+	<a class="list-title">CIC</a>
+	<ul id="accordion" class="accordion">
+		<li>
+			<div class="link"><i class="fa fa-star"></i>使命<i class="fa fa-chevron-down"></i></div>
+			<ul class="submenu">
+				<li id="shop"><a>提供商业咨询</a></li>
+				<li id="publicproducts"><a>给当地企业的网络营销提供中文的 PR(公关)</a></li>
+				<li id="productlists"><a>为泰国企业分享重商业信息，提高企业竞争力；
+</a></li>
+				
+			</ul>
+		</li>
+		<li>
+			<div class="link"><i class="fa fa-star"></i>基于'3K'提供服务<i class="fa fa-chevron-down"></i></div>
+			<ul class="submenu">
+				<li id="publishpurchase"><a>知识工作者（ Knowledge Worker ）</a></li>
+				<li id="postneeds"><a>知识链接 （Knowledge Connection）</a></li>
+				<li id="getneeds"><a>基于需求的知识创造（Knowledge Creation)</a></li>
+				
+			</ul>
+		</li>
+		
+		<li>
+		<div class="link"><i class="fa fa-star"></i> CIC的服务<i class="fa fa-chevron-down"></i></div>
+			
+			<ul class="submenu">
+				<li id="buyerxunpanlist"><a>餐饮业</a></li>
+				<li id="publishrequire"><a>旅游纪念品店</a></li>
+				<li id="publishrequire1"><a>公共交通运输公司/企业</a></li>
+			</ul>
+		</li>
+		
+		
+		
+		
+	</ul>
+	
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src='js/leftnav.js'></script>
+	
+</div>
+
+
+  
+</div>   
+ 
+       <div class="content3">
+       <span>China Intelligence Center</span>
+       
+        <ul class="">
+             <li><p class="price"><a href="#">处长: Danaitun Pongpatcharatorntep 博士</a> </p> </li>
+             <li><p class="price"><a href="#">--邮箱: danaitun.p@cmu.ac.th</a> </p> </li>
+             <li><p class="price"><a href="#">--电话: 	081-746-6285</a> </p> </li>
+             <li><p class="price"><a href="#">处长助理: Qingwei Shen (Naam)</a> </p> </li>
+             <li><p class="price"><a href="#">--邮箱: shenqingwei@Hotmail.com</a> </p> </li>
+             <li><p class="price"><a href="#">--处长助理: Qingwei Shen (Naam)</a> </p> </li>
+        
+           </ul><br>
+       
+       </div>
+    
+   </div>
+   <div class="footer">
+        <p>
+   copyright @2018-04-20  China Intelligence Center (CIC)
+        </p>
+     </div>
+   
+</body>
+</html>

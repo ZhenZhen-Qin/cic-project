@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+var img=document.getElementById('img');
+function bigger(){
+ img.style.width ='200px';
+ img.style.height ='200px';
+}
+
+function smaller(){
+ img.style.width ='90px';
+ img.style.height ='90px';
+}
+</script>
+</head>
+<body>
+    <img id="img" onmouseover="bigger()" onmouseout="smaller()"
+             src="image/z1.jpg" style="cursor:pointer;width:90px;height:90px;"/>
+             
+    <img src="image/a3.jpg" width=90px height=90px onmouseover="this.width=200px; this.height=200px;" 
+      onmouseout="this.width=90px; this.height=90px">
+</body>
+</html>

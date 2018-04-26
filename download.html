@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+<title>下载</title>
+<link type="text/css" rel="stylesheet" href="css/new.css"/>
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/leftnav.css" media="screen" type="text/css">
+<script type="text/javascript">
+$(function(){
+	
+	$(".title").click(function(){
+		   
+		 $("dd").find('ul').slideUp();
+		 if($(this).next('ul').is(':visible')){
+			  $(this).next('ul').slideUp();
+		 }else{
+			 $(this).next('ul').slideDown();
+		 }
+		 
+		 alert($("dd").next("div").length);
+		 alert($("dd").find("ul").length);
+	});
+	 
+ });
+</script>
+
+
+
+
+</head>
+<body class="main">
+   <div class="container">
+     <div class="banner">
+        <a class="aa"><img  src="image/logoCIC.png" width="250px" height="70px"/></a>
+        <a class="ss"><input type="text" name="search" value="搜索" maxLength="10"/><br/></a>
+        <a class="mm" href="english.html">English</a>
+     </div>
+     <div class="navigation">
+        <ul>
+          <li ><a href="NewFile.html">首页</a></li>
+          <li><a href="main2.html">介绍</a></li>
+          <li><a href="https://www.google.cn/maps/place/College+of+Arts,+Media+and+Technology/@18.8006677,98.9501761,17z/data=!4m5!3m4!1s0x30da3a6bf542deb3:0x85fbac3033920444!8m2!3d18.8004538!4d98.9504034">地图</a></li>
+          <li><a href="picture.html">图片</a></li>
+          <li><a href="ddownload.html">下载</a></li>
+        </ul>
+     </div>
+     
+  
+
+
+
+ <div class="content4">
+ <div class="account-l fl">
+	<a class="list-title">文件下载</a>
+	<ul id="accordion" class="accordion">
+		<li>
+			<div class="link"><i class="fa fa-star"></i>宣传<i class="fa fa-chevron-down"></i></div>
+			<ul class="submenu">
+				<li id="shop"><a>ppt</a></li>
+				<li id="publicproducts"><a>word</a></li>
+				<li id="productlists"><a>pdf</a></li>
+				
+			</ul>
+		</li>
+		<li>
+			<div class="link"><i class="fa fa-star"></i>工具<i class="fa fa-chevron-down"></i></div>
+			<ul class="submenu">
+				<li id="publishpurchase"><a>微信</a></li>
+				<li id="postneeds"><a>淘宝</a></li>
+				
+				
+			</ul>
+		</li>
+		
+		
+		
+		
+		
+		
+	</ul>
+	
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src='js/leftnav.js'></script>
+	
+</div>
+
+
+  
+</div>   
+ 
+       <div class="content3">
+       <span>China Intelligence Center</span>
+       
+        <ul class="">
+             <li><p class="price"><a href="https://drive.google.com/drive/my-drive">谷歌云</a> </p> </li>
+             <li><p class="price"><a href="#">rippler1995@gmail.com</a> </p> </li>
+         
+           </ul><br>
+       
+       </div>
+    
+   </div>
+   <div class="footer">
+        <p>
+   copyright @2018-04-20  China Intelligence Center (CIC)
+        </p>
+     </div>
+   
+</body>
+</html>

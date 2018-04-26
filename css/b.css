@@ -1,0 +1,83 @@
+@charset "utf-8";
+li,ul{list-style:none;}
+
+.top_bg{
+	font-family:"宋体";
+	width:700px;
+	height:30px;
+	background:#f7f7f7;
+}
+.orange{
+	font-weight:700;color:#f60;
+}
+.top_content{
+	float:left;
+}
+.top_floatr{
+	float:right;
+}
+.logo{
+	margin:5px;
+	width:700px;
+	height:50px;
+}
+.nav_bg{
+	background-color:#ce2626;
+	height:40px;width:700px;
+	color:#fff;
+	margin:5px;
+	
+}
+.menu_nav{
+	width:700px:float:left;margin-left:80px;
+	
+}
+.menu_nav li{
+	font-size:16px;font-weight:700;width:80px;float:left;
+	padding-top:10px;
+}
+a.white{
+	color:#FFF:
+}
+a.white:hover{
+	color:#ff0;
+}
+.menu{
+	width:140px;float:left;border:1px solid #e5e4e1;
+}
+.menu li{
+	height:33px;
+	font-size:14px;
+	border-bottom:1px solid #e5e4e1;
+}
+.menu li.title{
+	font-size:15px;
+	background:#e5e4e1;
+	}
+.red_dot{
+	margin-right:10px; margin-left:10px;
+	width:8px; height:8px;
+	background-image:url(image/a1.jpg) no-repeat;
+}
+.right_arrow{
+	background-image:url(image/ijantou.jpg);
+	float:right;
+	width:20px;
+	height:20px;
+}
+.middle{
+	padding-top:15px;padding-left:15px;
+	width:400px;
+	position:absolute;
+	top:160px; left:200px;
+}
+.right_nav{
+	float:right;
+	width:200px;
+}
+.notic_title{
+	text-align:center;
+}
+.pic_list3 li{
+	margin:5px;float:left;
+}

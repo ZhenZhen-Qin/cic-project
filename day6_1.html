@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+   .dd{
+      font-size:40px;
+      color:red;
+   }
+   .gg{
+      color:green;
+   }
+</style>
+<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){ 
+    	
+    	/**
+    	
+    	  以下是实现复选框反选和全选的代码
+    	  
+    	  
+    	$("#fan").click(function(){
+    		$("input[type='checkbox']").prop("checked",function(){
+    			 return !$(this).prop("checked");
+    		});
+    	});
+        $("#quan").click(function(){
+    		$("input[type='checkbox']").prop("checked",true);
+    	});
+        
+        **/
+        
+        
+    	/** 以下代码可以实现某个元素在两种样式之间切换
+    	 $("div").addClass(function(){
+    		  if ($(this).hasClass("gg")){
+    			  $(this).removeClass("gg").addClass("dd");
+    		  }else if ($(this).hasClass("dd")){
+    			  $(this).removeClass("dd").addClass("gg");
+    		  }
+    	 }); **/
+    });
+</script>
+</head>
+<body>
+   <!--  
+        以下是实现复选框反选和全选的代码
+   <input type="checkbox"  value="a1" checked="checked">足球
+   <input type="checkbox"  value="a2">篮球
+   <input type="checkbox"  value="a3">拍球
+   <input type="checkbox"  value="a4">排球
+   <input type="checkbox"  value="a5">玩球
+   <input type="checkbox"  value="a6">踢球
+   <input type="checkbox"  value="a7">扔球
+   
+   <br>
+   <input type="button" id="fan" value="反选"/>
+   <input type="button" id="quan" value="全选"/>
+   -->
+   
+   <!-- 
+     以下代码可以实现某个元素在两种样式之间切换
+     <div class="dd">
+      hello！大家哈！
+   </div>
+   <div class="gg">
+      好好学习哦！
+   </div> -->
+   
+   <!-- 
+      js中有DOM对象，jquery就是jquery对象
+      <input type="text" id="text"/>
+      <div class="a"><p>sfsd</p></div>
+      <div class="a"></div>
+      DoM:  var x=document.getElementById("text");
+      jquerty对象:  $("#text").html();
+                   $("#text").html("abc");
+                   $("#text").onfocus();
+                   var aa=$(".a")[0];
+                   aa.innerHTML="<p>sfsd</p>";
+                   
+       val() :对表单用的   .val() 获得表达的值
+                         .val("dsf")设置表达的值
+                         
+       text()和html()
+                         
+    -->
+</body>
+</html>
